@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/* 부드럽게 올라감 */
+html{ scroll-behavior: smooth;
+  font-size: 62.5%; /* 10px 계산하려고 62.5%로 한거. %사용이유는 반응형적용하려고 */
+}
+
+*{ 
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+ul,ol{
+  list-style: none;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+caption, legend{
+  display: none;
+}
+input, select, textarea, fieldset{
+  border: 0;
+  outline: none;
+}
+image{
+  vertical-align: top;
+}
+
+i, em, address{
+  /* 글자기울임 방지 */
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h5, h6, strong, b{
+  /* 글자 굵기 */
+  font-weight: normal;
+}
+button, input{
+  border: none;
+  background-color: transparent;
+}
