@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no, email=no">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="img/common/favicon.png" type="image/x-icon">
+
+  <!-- font -->
+  <link rel="stylesheet" href="css/font.css">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- js -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/main.js"></script>
+
+  <title>매일유업</title>
+</head>
+<div id="wrap">
+  <header id="header">
+    <div class="inner">
+      <ul class="header_top">
+        <li><a href="#">인재채용</a></li>
+        <li><a href="#">고객센터</a></li>
+        <li><a href="#">공식스토어 바로가기</a></li>
+      </ul>
+      <div class="header_main">
+        <h1><a href="index.html"><img src="img/common/logo.svg" alt="매일유업로고"></a></h1>
+        <nav>
+          <ul class="gnb">
+            <li><a href="#">회사소개</a>
+              <ul class="depth2">
+                <li><a href="#">기업소개</a></li>
+                <li><a href="sub/sub01.html">가치체계</a></li>
+                <li><a href="#">인사말</a></li>
+                <li><a href="#">연구소</a></li>
+                <li><a href="#">공장</a></li>
+                <li><a href="#">글로벌사업</a></li>
+                <li><a href="#">오시는길</a></li>
+              </ul>
+            </li>
+            <li><a href="#">제품소개</a>
+              <ul class="depth2">
+                <li><a href="sub/sub02.html">우유</a></li>
+                <li><a href="#">발효유</a></li>
+                <li><a href="#">치즈</a></li>
+                <li><a href="#">주스</a></li>
+                <li><a href="#">커피 - tea</a></li>
+                <li><a href="#">곡물</a></li>
+                <li><a href="#">유아식</a></li>
+                <li><a href="#">건강식</a></li>
+                <li><a href="#">간편식</a></li>
+                <li><a href="#">아이간식</a></li>
+                <li><a href="#">디저트</a></li>
+                <li><a href="#">유지류/<br>음료베이스</a></li>
+                <li><a href="#">수입상품</a></li>
+                <li><a href="#">수출상품</a></li>
+                <li><a href="#">전체</a></li>
+              </ul>
+            </li>
+            <li><a href="#">사회공헌</a>
+              <ul class="depth2">
+                <li><a href="#">사회공헌 소개</a></li>
+                <li><a href="#">나눔활동</a></li>
+                <li><a href="sub/sub03.html">사회공헌 연혁</a></li>
+                <li><a href="#">나눔소식</a></li>
+              </ul>
+            </li>
+            <li><a href="#">상생 • 윤리경영</a>
+              <ul class="depth2">
+                <li><a href="#">상생경영</a></li>
+                <li><a href="sub/sub04.html">윤리경영</a></li>
+                <li><a href="#">가족친화 경영</a></li>
+                <li><a href="#">매일유업 동반성장</a></li>
+              </ul>
+            </li>
+            <li><a href="#">IR</a>
+              <ul class="depth2">
+                <li><a href="sub/sub05.html">경영정보</a></li>
+                <li><a href="#">재무정보</a></li>
+                <li><a href="#">공시정보</a></li>
+                <li><a href="#">IR 자료실</a></li>
+                <li><a href="#">공고</a></li>
+              </ul>
+            </li>
+            <li><a href="#">PR</a>
+              <ul class="depth2">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">광고</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="lang">KOR
+          <p>ENG</p>
+        </div>
+        <button class="ham_menu"></button>
+      </div>
+    </div>
+    <div class="ham_bg"></div>
+    <div class="ham_con">
+      <div class="h_top">
+        <h2><img src="img/common/logo.svg" alt="매일유업 로고"></h2>
+        <div class="ham_close"></div>
+      </div>
+
+      <div class="ham_list">
+        <nav>
+          <ul class="mgnb">
+            <li><a href="#">회사소개</a>
+              <ul class="mdepth2">
+                <li><a href="#">기업소개</a></li>
+                <li><a href="sub/sub01.html">가치체계</a></li>
+                <li><a href="#">인사말</a></li>
+                <li><a href="#">연구소</a></li>
+                <li><a href="#">공장</a></li>
+                <li><a href="#">글로벌사업</a></li>
+                <li><a href="#">오시는길</a></li>
+              </ul>
+            </li>
+            <li><a href="#">제품소개</a>
+              <ul class="mdepth2">
+                <li><a href="sub/sub02.html">우유</a></li>
+                <li><a href="#">발효유</a></li>
+                <li><a href="#">치즈</a></li>
+                <li><a href="#">주스</a></li>
+                <li><a href="#">커피 - tea</a></li>
+                <li><a href="#">곡물</a></li>
+                <li><a href="#">유아식</a></li>
+                <li><a href="#">건강식</a></li>
+                <li><a href="#">간편식</a></li>
+                <li><a href="#">아이간식</a></li>
+                <li><a href="#">디저트</a></li>
+                <li><a href="#">유지류/<br>음료베이스</a></li>
+                <li><a href="#">수입상품</a></li>
+                <li><a href="#">수출상품</a></li>
+                <li><a href="#">전체</a></li>
+              </ul>
+            </li>
+            <li><a href="#">사회공헌</a>
+              <ul class="mdepth2">
+                <li><a href="#">사회공헌 소개</a></li>
+                <li><a href="#">나눔활동</a></li>
+                <li><a href="sub/sub03.html">사회공헌 연혁</a></li>
+                <li><a href="#">나눔소식</a></li>
+              </ul>
+            </li>
+            <li><a href="#">상생 • 윤리경영</a>
+              <ul class="mdepth2">
+                <li><a href="#">상생경영</a></li>
+                <li><a href="sub/sub04.html">윤리경영</a></li>
+                <li><a href="#">가족친화 경영</a></li>
+                <li><a href="#">매일유업 동반성장</a></li>
+              </ul>
+            </li>
+            <li><a href="#">IR</a>
+              <ul class="mdepth2">
+                <li><a href="sub/sub05.html">경영정보</a></li>
+                <li><a href="#">재무정보</a></li>
+                <li><a href="#">공시정보</a></li>
+                <li><a href="#">IR 자료실</a></li>
+                <li><a href="#">공고</a></li>
+              </ul>
+            </li>
+            <li><a href="#">PR</a>
+              <ul class="mdepth2">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">광고</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <!-- main_visual -->
+    <section id="main_visual">
+      <div class="swiper mv">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide mv1">
+            <div class="mv_txt">
+              <h2 data-aos="fade-left">More than food,<br>
+                <span data-aos="fade-right" data-aos-duration="1500">Beyond</span> Korea
+              </h2>
+              <p data-aos="fade-up" data-aos-duration="2000">새로운 식문화를 창조하며, 글로벌로 나아갑니다.</p>
+              <p data-aos="fade-up" data-aos-duration="2000">매일유업은 더 많은 연구와 끊임없는 노력으로 새로운 식문화를 창조하며,<br>
+                대한민국을 넘어 글로벌 종합식품기업으로 도약하는 더 큰 역사를 개척해 나가고자 합니다</p>
+            </div>
+          </li>
+          <li class="swiper-slide mv2">
+            <div class="mv_txt">
+              <h2 data-aos="fade-left">함께<br>
+                <span data-aos="fade-right" data-aos-duration="1500">나누는</span> 매일
+              </h2>
+              <p data-aos="fade-up" data-aos-duration="2000">단 한명의 아이도 건강한 삶에서 소외되지 않도록,<br>
+                한국최초 8종 10개 제품의 특수분유를 만들었습니다.
+              </p>
+            </div>
+          </li>
+          <li class="swiper-slide mv3">
+            <div class="mv_txt">
+              <h2 data-aos="fade-left"><span data-aos="fade-right" data-aos-duration="1500">매일유업</span> 이야기</h2>
+              <p data-aos="fade-up" data-aos-duration="2000">“ 남들이 가지 않은 길을 언제나 제일 먼저 갔습니다.<br>
+                그것이 우리의 사명이고, 우리의 몫입니다. ”
+              </p>
+              <p data-aos="fade-up" data-aos-duration="2000">그 누구보다 언제나 한발 먼저<br>
+                대한민국 유업계를 이끌어 가는 매일유업의 이야기, 지금 시작합니다.
+              </p>
+            </div>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+        <!-- 글자형성 -->
+      </div>
+    </section>
+    <!-- //main_visual -->
+
+    <!-- search -->
+    <section id="search" data-aos="zoom-in" data-aos-duration="1500">
+      <div class="inner">
+        <form>
+          <fieldset>
+            <legend>제품검색영역</legend>
+            <div class="pro_search">
+              <div class="icon_cow">젖소아이콘</div>
+              <input type="text" placeholder="찾으시는 제품명을 입력해주세요 !">
+              <input type="submit" value="검색하기">
+            </div>
+          </fieldset>
+        </form>
+        <ul class="sch_list">
+          <li><a href="#">#앱솔루트</a></li>
+          <li><a href="#">#매일우유</a></li>
+          <li><a href="#">#썬업</a></li>
+          <li><a href="#">#요미요미</a></li>
+          <li><a href="#">#셀렉스</a></li>
+          <li><a href="#">#아몬드브리즈</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- //search -->
+
+    <!-- product -->
+    <section id="product">
+      <div class="sub_txt" data-aos="fade-right">
+        <small>Maeil’s Product</small>
+        <div class="head_txt">
+          <h2>제품소개</h2>
+          <p data-aos="fade-right" data-aos-duration="2000">새로운 생각으로 끊임없이 연구하며 믿을 수 있는 제품으로<br>
+            고객의 내일을 건강하고 활력 있게 채워가고 있습니다.</p>
+        </div>
+      </div>
+      <div class="product_list">
+        <!-- pro -->
+        <div class="prd">
+          <!-- product_left -->
+          <div class="swiper product_left">
+            <ul class="swiper-wrapper">
+              <li data-id="1" class="swiper-slide active">
+                <p>우유</p>
+              </li>
+              <li data-id="2" class="swiper-slide">
+                <p>발효유</p>
+              </li>
+              <li data-id="3" class="swiper-slide">
+                <p>치즈</p>
+              </li>
+              <li data-id="4" class="swiper-slide">
+                <p>주스</p>
+              </li>
+              <li data-id="5" class="swiper-slide">
+                <p>커피-tea</p>
+              </li>
+              <li data-id="6" class="swiper-slide">
+                <p>곡물</p>
+              </li>
+              <li data-id="7" class="swiper-slide">
+                <p>유아식</p>
+              </li>
+              <li data-id="8" class="swiper-slide">
+                <p>건강식</p>
+              </li>
+              <li data-id="9" class="swiper-slide">
+                <p>간편식</p>
+              </li>
+              <li data-id="10" class="swiper-slide">
+                <p>아이간식</p>
+              </li>
+              <li data-id="11" class="swiper-slide">
+                <p>디저트</p>
+              </li>
+              <li data-id="12" class="swiper-slide">
+                <p>유지류/음료베이스</p>
+              </li>
+            </ul>
+          </div>
+          <!-- //product_left -->
+          <div class="prd_prev"></div>
+          <div class="prd_next"></div>
+        </div>
+        <!-- //pro -->
+
+        <!-- product_right -->
+        <div class="swiper product_right">
+          <ul class="swiper-wrapper">
+            <li data-id="1" class="swiper-slide">
+
+              <div class="prd_box">
+                <a href="#">
+                  <h3>우유</h3>
+                  <span class="prd1">이미지</span>
+                  <p>신선함을 매일!</p>
+                </a>
+                <a class="btn_more" href="#">더보기</a>
+              </div>
+            </li>
+            <li data-id="2" class="swiper-slide">
+
+              <div class="prd_box">
+                <a href="#">
+                  <h3>발효유</h3>
+                  <span class="prd2">이미지</span>
+                  <p>매일 장의 힘을 키우다</p>
+                </a>
+                <a class="btn_more" href="#">더보기</a>
+              </div>
+            </li>
+            <li data-id="3" class="swiper-slide">
+
+              <div class="prd_box">
+                <a href="#">
+                  <h3>치즈</h3>
+                  <span class="prd3">이미지</span>
+                  <p>좋은 재료,<br>
+                    엄격한 공정을 통해 완성됩니다.</p>
+                </a>
+                <a class="btn_more" href="#">더보기</a>
+              </div>
+            </li>
+            <li data-id="4" class="swiper-slide">
+
+              <div class="prd_box">
+                <a href="#">
+                  <h3>주스</h3>
+                  <span class="prd4">이미지</span>
+                  <p>과일과 야채의<br>
+                    신선함과 영양을 기본으로</p>
+                </a>
+                <a class="btn_more" href="#">더보기</a>
+              </div>
+            </li>
+            <li data-id="5" class="swiper-slide">
+
+              <div class="prd_box">
+                <a href="#">
+                  <h3>커피-tea</h3>
+                  <span class="prd5">이미지</span>
+                  <p> 매일 마시는 커피,<br>
+                    매일처럼
+                  </p>
+                </a>
+                <a class="btn_more" href="#">더보기</a>
+              </div>
+            </li>
+            <li data-id="6" class="swiper-slide">
+
+              <div class="prd_box">
+                <a href="#">
+                  <h3>곡물</h3>
+                  <span class="prd6">이미지</span>
+                  <p>건강함과 새로움을 추구하는 습관 </p>
+                </a>
+                <a class="btn_more" href="#">더보기</a>
+              </div>
+            </li>
+            <li data-id="7" class="swiper-slide">
+
+              <div class="prd_box">
+                <a href="#">
+                  <h3>유아식</h3>
+                  <span class="prd7">이미지</span>
+                  <p>엄마의 마음으로 처음부터 끝까지</p>
+                </a>
+                <a class="btn_more" href="#">더보기</a>
+              </div>
+            </li>
+            <li data-id="8" class="swiper-slide">
+
+              <div class="prd_box">
+                <a href="#">
+                  <h3>건강식</h3>
+                  <span class="prd8">이미지</span>
+                  <p>건강한 정신은<br>
+                    건강한 몸에서 비롯된다는<br>
+                    가치를 바탕으로</p>
+                </a>
+                <a class="btn_more" href="#">더보기</a>
+              </div>
+            </li>
+            <li data-id="9" class="swiper-slide">
+
+              <div class="prd_box">
+                <a href="#">
+                  <h3>간편식</h3>
+                  <span class="prd9">이미지</span>
+                  <p>가족 모두 안심하고 먹을 수 있는<br>
+                    한끼를 만들겠습니다.</p>
+                </a>
+                <a class="btn_more" href="#">더보기</a>
+              </div>
+            </li>
+            <li data-id="10" class="swiper-slide">
+
+              <div class="prd_box">
+                <a href="#">
+                  <h3>아이 간식</h3>
+                  <span class="prd10">이미지</span>
+                  <p>더 다양하고, 즐겁고, 편리하게 먹는<br>
+                    소중한 우리아이 건강간식</p>
+                </a>
+                <a class="btn_more" href="#">더보기</a>
+              </div>
+            </li>
+            <li data-id="11" class="swiper-slide">
+
+              <div class="prd_box">
+                <a href="#">
+                  <h3>디저트</h3>
+                  <span class="prd11">이미지</span>
+                  <p>원재료를 더 맛있게,<br>
+                    함께 즐기는 홈디저트</p>
+                </a>
+                <a class="btn_more" href="#">더보기</a>
+              </div>
+            </li>
+            <li data-id="12" class="swiper-slide">
+
+              <div class="prd_box">
+                <a href="#">
+                  <h3>유지류/음료 베이스</h3>
+                  <span class="prd12">이미지</span>
+                  <p>우유의 신선함과<br>
+                    영양성분을 그대로 담아</p>
+                </a>
+                <a class="btn_more" href="#">더보기</a>
+              </div>
+            </li>
+            <li data-id="13" class="swiper-slide">
+            </li>
+            <li data-id="14" class="swiper-slide">
+            </li>
+            <li data-id="15" class="swiper-slide">
+            </li>
+          </ul>
+        </div>
+        <!-- //product_right -->
+      </div>
+    </section>
+    <!-- //product -->
+
+    <!-- brand -->
+    <section id="brand">
+      <div class="inner">
+        <div class="sub_txt" data-aos="zoom-in">
+          <small>Maeil’s Brand</small>
+          <div class="head_txt">
+            <h2>브랜드 소개</h2>
+            <p><span>More Than Food</span><br>
+              새로운 식문화를 창조하며</p>
+          </div>
+        </div>
+        <div class="brand_list" data-aos="fade-up" data-aos-duration="2000">
+          <ol class="">
+            <li class="bg1">
+              <a href="#">
+                <div class="brand_bg">
+                  <div class="brand_img">이미지</div>
+                  <h3>상하목장</h3>
+                  <p>자연에게 좋은 것이 사람에게도 좋습니다.</p>
+                </div>
+              </a>
+            </li>
+            <li class="bg2">
+              <a href="#">
+                <div class="brand_bg">
+                  <div class="brand_img">이미지</div>
+                  <h3>앱솔루트</h3>
+                  <p>매일 엄마를 닮아 갑니다.</p>
+                </div>
+              </a>
+            </li>
+            <li class="bg3">
+              <a href="#">
+                <div class="brand_bg">
+                  <div class="brand_img">이미지</div>
+                  <h3>매일바이오</h3>
+                  <p>매일 장의 힘을 키우다.</p>
+                </div>
+              </a>
+            </li>
+            <li class="bg4">
+              <a href="#">
+                <div class="brand_bg">
+                  <div class="brand_img">이미지</div>
+                  <h3>바리스타룰스</h3>
+                  <p>1% 고산지 귀한 프리미엄 원두를 찾아<br>
+                    맞춤 로스팅</p>
+                </div>
+              </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+    </section>
+    <!-- //brand -->
+
+    <!-- company -->
+    <section id="company">
+      <div class="company_bg">
+        <div class="inner">
+          <h3 data-aos="fade-right"><em>매 일</em> 묻고<br>
+            <i>매 일</i> 답하다 <br>
+            <b>매 일</b> 유업
+          </h3>
+          <p data-aos="fade-left" data-aos-duration="2000"><strong>새로운 식문화를 창조하며, 글로벌로 나아간다.</strong><br>
+            “우리는건강한매일, 맛있는매일, 새로운매일을연구하고개척하여,<br>
+            모두가건강하고행복한함께하는사회를만든다＂
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- //company -->
+
+    <!-- csr -->
+    <section id="csr">
+      <div class="inner">
+        <div class="sub_txt" data-aos="fade-right">
+          <small>Maeil’s Social Contribution</small>
+          <div class="head_txt">
+            <h2>함께 사는 매일</h2>
+            <p data-aos="fade-right" data-aos-duration="2000"><span>모두가 함께 행복한 사회를 위한<br> 매일의 희망이야기를 전합니다.</span><br>
+              고객에게 받은 넘치는 사랑을 돌려드리고<br>
+              나 혼자가 아닌 모두가 함께 잘 사는 따뜻한 사회를 만들기 위해<br>
+              사회적 책임과 의무를 다하며, 지속 가능한 경영을 실천합니다.</p>
+          </div>
+        </div>
+        <video data-aos="fade-left" data-aos-duration="3000" src="img/main/video.MOV" autoplay muted loop></video>
+      </div>
+    </section>
+    <!-- //csr -->
+
+    <!-- news -->
+    <section id="news">
+      <div class="inner">
+        <div class="news_left">
+          <div class="sub_txt">
+            <small data-aos="zoom-in">Maeil’s News</small>
+            <div class="head_txt">
+              <h2 data-aos="zoom-in">공지사항</h2>
+              <a class="btn_view" href="#">더보기</a>
+            </div>
+          </div>
+          <ul class="news_list">
+            <li>
+              <h3>공지</h3>
+              <strong><a href="#">식품 소비의 새로운 기준 '소비기한'</a></strong>
+              <small>2024.04.25</small>
+            </li>
+            <li>
+              <h3>공지</h3>
+              <strong><a href="#">매일유업 이용약관(23.11.22) 및 개인정보 처리방침(23.11.15) 개정 공지</a></strong>
+              <small>2023.11.08</small>
+            </li>
+          </ul>
+        </div>
+
+        <div class="news_right">
+          <ol>
+            <li><a href="#">
+                <em>매일 바이오 프로틴 요거트</em>
+              </a></li>
+            <li><a href="#">
+                <em>매일 바이오 제로 이벤트</em>
+              </a></li>
+            <li><a href="#">
+                <em>1회용품 ZERO 챌린지</em>
+              </a></li>
+            <li><a href="#">
+                <em>매일우유 크림소금빵 출시</em>
+              </a></li>
+            <li><a href="#">
+                <em>매일 바이오 제로 이벤트</em>
+              </a></li>
+            <li><a href="#">
+                <em>멸균팩 새가바치 프로젝트</em>
+              </a></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!-- //news -->
+
+    <!-- customer -->
+    <section id="customer">
+      <div class="sub_txt" data-aos="zoom-in" data-aos-duration="1500">
+        <small>Customer Center</small>
+        <div class="head_txt">
+          <h2>고객문의 및 자주 묻는 질문</h2>
+        </div>
+      </div>
+      <div class="cus_box">
+        <div class="inner">
+          <div class="cus_left">
+            <h3>고객문의</h3>
+            <p>매일에 궁근한 사항을 문의해주세요.<br>
+              최대한 빠른 시일 내에 친절하게 답변해드리겠습니다.</p>
+            <a href="#" class="btn_cus">문의하기</a>
+          </div>
+          <div class="cus_right">
+            <ul>
+              <li>자주 묻는 질문에 내용이 없는 경우, 고객문의 바랍니다.</li>
+              <li><a href="#" class="btn_view">더보기</a></li>
+            </ul>
+            <div class="qna">
+              <dl>
+                <dt>Q</dt>
+                <dd>[유아식] 앱솔루트 분유의 종류별 특징에 대해 알려주세요.</dd>
+                <dd><a href="#" class="btn_more">더보기</a></dd>
+              </dl>
+              <dl>
+                <dt>Q</dt>
+                <dd>매일유업 분유 샘플을 신청하고 싶어요.</dd>
+                <dd><a href="#" class="btn_more">더보기</a></dd>
+              </dl>
+              <dl>
+                <dt>Q</dt>
+                <dd>'Maeil DO' 는 무엇인가요?</dd>
+                <dd><a href="#" class="btn_more">더보기</a></dd>
+              </dl>
+              <dl>
+                <dt>Q</dt>
+                <dd>분유 조유시 20ml 스푼을 이용하고 싶어요.</dd>
+                <dd><a href="#" class="btn_more">더보기</a></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //customer -->
+
+  </main>
+
+  <footer id="footer">
+    <div class="footer_bg"></div>
+    <div class="inner">
+      <h2><img src="img/common/logo.svg" alt="매일유업로고"></h2>
+      <p>새로운 식문화를 창조해 가는 글로벌 리더 <span> 매일유업</span></p>
+      <ol class="footer_link">
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">전자입찰(협력사용)</a></li>
+      </ol>
+      <div class="footer_con">
+        <ul class="footer_tel">
+          <li>Contact Us</li>
+          <li><a href="tel:1588-1539">1588 - 1539</a></li>
+        </ul>
+        <ul class="footer_sns">
+          <li><a href="#"><img src="img/main/sns01_insta.png" alt="인스타그램"></a></li>
+          <li><a href="#"><img src="img/main/sns02_youtube.png" alt="유튜브"></a></li>
+          <li><a href="#"><img src="img/main/sns03_naver.png" alt="네이버포스트"></a></li>
+          <li><a href="#"><img src="img/main/sns04_facebook.png" alt="페이스북"></a></li>
+        </ul>
+      </div>
+      <address>서울시 종로구 종로 1길 50 더 케이 트윈타워 A동 대표전화 : 1588-1539</address>
+      <div class="copy">Copyright(c) 2016 by Maeil Dairies Co.Ltd All rights reserved.</div>
+
+      <div class="family">
+        <div class="family_click">
+          <h3>패밀리 사이트</h3>
+        </div>
+        <ul class="family_list">
+          <li><a href="#">매일홀딩스</a></li>
+          <li><a href="#">매일헬스뉴트리션</a></li>
+          <li><a href="#">제로투세븐</a></li>
+          <li><a href="#">상하농원</a></li>
+          <li><a href="#">엠즈씨드(폴바셋)</a></li>
+          <li><a href="#">크리스탈제이드</a></li>
+          <li><a href="#">엠즈씨드(더 키친 일뽀르노)</a></li>
+          <li><a href="#">엠즈베버리지</a></li>
+          <li><a href="#">엠즈푸드시스템</a></li>
+          <li><a href="#">엠즈파트너스</a></li>
+          <li><a href="#">레뱅드메일</a></li>
+          <li><a href="#">엠디웰</a></li>
+          <li><a href="#">매일오더</a></li>
+          <li><a href="#">엠즈베이커스</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <div class="go_top"><a href="#">탑버튼</a></div>
+
+</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  });
+</script>
+</body>
+
+</html>
