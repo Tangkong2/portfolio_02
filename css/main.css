@@ -979,10 +979,10 @@
     height: 485px;
     transition: all 0.5s;
     flex-shrink: 0;
+    box-shadow: 1px 2px 15.5px rgba(0, 0, 0, 0.1);
   }
   #brand .brand_list ol li:hover{
     transform: translateY(0);
-    box-shadow: 1px 2px 15.5px rgba(0, 0, 0, 0.2);
   }
   #brand .brand_list ol li .brand_bg .brand_img{
     height: 330px;
